@@ -16,9 +16,9 @@ out
 # gradle
 build
 **/.gradle
-gradle/
-gradlew
-gradlew.bat
+# gradle/
+# gradlew
+# gradlew.bat
 
 
 # other
