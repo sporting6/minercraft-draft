@@ -1,0 +1,16 @@
+[
+{
+  "modid": "minercraft",
+  "name": "Miner Craft",
+  "description": "Teddy's first Minecraft mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Teddy Maloney"],
+  "credits": "Teddy Maloney wrote this mod (with help from his dad and brother)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
