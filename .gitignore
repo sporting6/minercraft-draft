@@ -9,6 +9,10 @@ bin
 # .project
 **/*.log
 
+eclipse/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+eclipse/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+eclipse/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+
 eclipse/.metadata/.plugins/org.eclipse.ltk.core.refactoring/
 eclipse/.metadata/.plugins/org.eclipse.m2e.logback.configuration/
 eclipse/.metadata/.plugins/org.eclipse.jdt.core/
