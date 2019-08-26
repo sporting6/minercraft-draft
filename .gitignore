@@ -4,7 +4,8 @@ bin
 .settings
 .metadata
 .classpath
-.project
+# .project
+**/*.log
 
 # idea
 out
@@ -22,7 +23,6 @@ build
 
 
 # other
-eclipse
 run
 
 **/.DS_Store
