@@ -11,12 +11,16 @@ bin
 
 eclipse/.metadata/.plugins/org.eclipse.ltk.core.refactoring/
 eclipse/.metadata/.plugins/org.eclipse.m2e.logback.configuration/
+eclipse/.metadata/.plugins/org.eclipse.jdt.core/
 eclipse/.metadata/.mylyn/
 eclipse/.metadata/version.ini
 **/.history/*
 **/.indexes/*
 **/*.index
 eclipse/**/*.png
+**/*.snap
+**/*.tree
+**/*.dat
 
 # idea
 out
