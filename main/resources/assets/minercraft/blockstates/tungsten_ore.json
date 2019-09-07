@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "minercraft:tungsten_ore" }
+        ]
+    }
+}

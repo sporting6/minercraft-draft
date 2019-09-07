@@ -1,8 +1,9 @@
 package minercraft;
 
 import org.apache.logging.log4j.Logger;
-import minercraft.init.ModItems;
 
+import minercraft.init.ModBlocks;
+import minercraft.init.ModItems;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -26,6 +27,7 @@ public class MinerCraft
     {
         logger = event.getModLog();
         ModItems.init();
+        ModBlocks.init();
     }
 
     @EventHandler
