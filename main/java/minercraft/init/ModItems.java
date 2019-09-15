@@ -4,6 +4,7 @@ import minercraft.MinerCraft;
 import minercraft.item.CopperIngot;
 import minercraft.item.TungstenIngot;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -20,7 +21,11 @@ public class ModItems {
 	public static void init() {
 		tungstenIngot = new TungstenIngot();
 		copperIngot = new CopperIngot();
+		tungstenIngot.setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64);
+		copperIngot.setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64);
 	}
+	
+		
 
 	@SubscribeEvent
 	public static void registerItems(RegistryEvent.Register<Item> event) {

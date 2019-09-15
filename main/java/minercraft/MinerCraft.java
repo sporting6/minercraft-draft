@@ -4,6 +4,7 @@ import org.apache.logging.log4j.Logger;
 
 import minercraft.init.ModBlocks;
 import minercraft.init.ModItems;
+import minercraft.init.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -29,11 +30,12 @@ public class MinerCraft
         ModItems.init();
         ModBlocks.init();
     }
-
+    
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
     	logger.info("Initializing " + NAME + "...");
+        ModRecipes.init();
     }
     
     @EventHandler
