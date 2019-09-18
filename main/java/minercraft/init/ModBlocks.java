@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class ModBlocks {
 
 	
-	static Block tungstenOre;
+	static public Block tungstenOre;
 	static Block tungstenBlock;
 	
 	public static void init() {

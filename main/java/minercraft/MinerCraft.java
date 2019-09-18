@@ -5,11 +5,13 @@ import org.apache.logging.log4j.Logger;
 import minercraft.init.ModBlocks;
 import minercraft.init.ModItems;
 import minercraft.init.ModRecipes;
+import minercraft.worldgen.OreGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = MinerCraft.MODID, name = MinerCraft.NAME, version = MinerCraft.VERSION)
 public class MinerCraft
@@ -36,6 +38,7 @@ public class MinerCraft
     {
     	logger.info("Initializing " + NAME + "...");
         ModRecipes.init();
+        GameRegistry.registerWorldGenerator(new OreGen(), 0);
     }
     
     @EventHandler
