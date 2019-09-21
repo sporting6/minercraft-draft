@@ -27,14 +27,24 @@ public class OreGen implements IWorldGenerator {
 				break;
 			//Overworld
 			case 0:
-				// randomly generate the number of blocks to generate (# between 1 and 7)
-				int blockAmount = random.nextInt(7) + 1;
+				// Generate Tungsten Ore
+				int blockAmount = random.nextInt(7) + 3;
 				int chancesToSpawn = 25;
 				int minHeight = 12;
 				int maxHeight = 75;
 				runGenerator(ModBlocks.tungstenOre.getDefaultState(), blockAmount, chancesToSpawn,
 						     minHeight, maxHeight,
 						     BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
+				
+				// Generate Copper Ore
+				blockAmount = random.nextInt(7) + 3;
+				chancesToSpawn = 30;
+				minHeight = 34;
+				maxHeight = 100;
+				runGenerator(ModBlocks.copperOre.getDefaultState(), blockAmount, chancesToSpawn,
+						     minHeight, maxHeight,
+						     BlockMatcher.forBlock(Blocks.STONE), world, random, chunkX, chunkZ);
+				
 				break;
 			//End
 			case 1:

@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "minercraft:blocks/copper_ore"
+    }
+}
