@@ -4,3 +4,4 @@ tile.copper_ore.name=Copper Ore
 tile.copper_block.name=Copper Block
 tile.tungsten_ore.name=Tungsten Ore
 tile.tungsten_block.name=Tungsten Block
+itemGroup.tabMinerCraft=Miner Craft

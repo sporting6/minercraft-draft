@@ -28,16 +28,16 @@ public class ModBlocks {
 	
 	public static void init() {
 		tungstenOre = new TungstenOre("tungsten_ore", Material.ROCK);
-		tungstenOre.setHardness(2.5f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		tungstenOre.setHardness(2.5f).setCreativeTab(ModItems.tabMinerCraft);
 		tungstenOre.setHarvestLevel("pickaxe", 2);
 		copperOre = new CopperOre("copper_ore", Material.ROCK);
-		copperOre.setHardness(2.5f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		copperOre.setHardness(2.5f).setCreativeTab(ModItems.tabMinerCraft);
 		copperOre.setHarvestLevel("pickaxe", 1);
 		tungstenBlock = new TungstenBlock("tungsten_block", Material.ROCK);
-		tungstenBlock.setHardness(2.5f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		tungstenBlock.setHardness(2.5f).setCreativeTab(ModItems.tabMinerCraft);
 		tungstenBlock.setHarvestLevel("pickaxe", 1);
 		copperBlock = new CopperBlock("copper_block", Material.ROCK);
-		copperBlock.setHardness(2.5f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		copperBlock.setHardness(2.5f).setCreativeTab(ModItems.tabMinerCraft);
 		copperBlock.setHarvestLevel("pickaxe", 1);
 	}
 	
